@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap');
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-color: #c8c2c2;
+}
+section{
+position: relative;
+display: flex;
+height: 500px;
+width: 1000px;
+font-weight: 400;
+padding: 2em;
+margin: 5em auto;
+border-radius:20px;
+background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url(../images/bg1.jpeg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+box-shadow: 5px 10px 5px rgba(0,0,0,0.6);
+}
+.right{
+position: absolute;
+height: 300px;
+width: 300px;
+right: 0;
+bottom: 0;
+}
+.right h1,h2,p{
+font-family: 'DM Serif Display', serif;
+font-weight: 400;
+color: #fff;
+text-align: center;
+}
+.right h1{
+color:#cf7d56;
+text-shadow: 3px 3px 3px rgba(0,0,0,0.7);
+}
+.right h1:hover{
+color: #fff;
+transition: all 0.5s ease;
+}
+.left{
+position: absolute;
+padding: 0;
+top: 0;
+left: 0;
+border-radius: 20px;
+height: 100%;
+width: 300px;
+background-image: url(../images/bg2.jpeg);
+background-size: cover;
+}
+.left h2{
+position: absolute;
+margin-left: 50px;
+letter-spacing: 1px;
+color:#cf7d56;
+font-shadow: 2px solid #fff;
+bottom: 0;
+}
+.center{
+background: #ddd;
+}
+.center img{
+position: absolute;
+width: 320px;
+height: 250px;
+background: #ddd;
+bottom: 110px;
+left: 150px;
+border: 2px solid #fff;
+box-shadow: 5px 10px 5px rgba(0,0,0,0.6);
+}
+.center i{
+position: absolute;
+font-size: 50px;
+width: 300px;
+height: 240px;
+bottom: 20px;
+left:280px;
+color: #fff;
+}
+.center i:hover{
+color: #333;
+cursor: pointer;
+transition: all 0.5s ease;
+}
+ul h3{
+position: absolute;
+margin: 0;
+margin-left: 20px;
+left: 0;
+color: #cf7d56;
+text-shadow: 3px 3px 3px rgba(0,0,0,0.7);
+z-index: 5;
+}
+ul h3:hover{
+color:#cf7d56;
+transition: all 0.5s ease;
+}
+ul li{
+color: #fff;
+margin-left: 10px;
+letter-spacing: 2px;
+}
+ul li:hover{
+color:#cf7d56;
+cursor: pointer;
+transition: all 0.5s ease;
+}
+ul h3:hover{
+color:#fff;
+cursor: pointer;
+transition: all 0.5s ease;
+}
+ul i:hover{
+transform: translate(360deg);
+transition: all 0.5s ease;
+}
+footer p{
+font-size: 20px;
+color: #424242;
+}
